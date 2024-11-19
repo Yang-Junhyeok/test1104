@@ -1,0 +1,27 @@
+git
+
+git init  -> .git 폴더를 숨김 파일로 만들어줌
+
+git config user.name '설정할 이름'
+
+git config user.email '깃허브 아이디'
+
+config정보 확인 방법  -> git config --list
+
+git add .   --> .git에 파일을 넣는법 .은 띄어쓰기 하고 넣고 모든 파일
+
+git commit -m '커밋이름'
+
+git status  -> 커밋 상태 확인
+
+git remote add origin 깃허브에 주소
+
+확인방법 git remote -v
+
+git branch -m main  -> 메인으로 브랜치명 변경
+
+git push -u origin main    ->> main 브렌치에 파일올리기
+
+git branch test  -> test이름을 가진 브렌치 추가
+
+git checkout test -> test이름을 가진 브렌치로 변경
